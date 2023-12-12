@@ -1,3 +1,4 @@
 # CKA
 
-![cka](https://github.com/PragmaticArchive/CKA/assets/58178752/03e68bae-ed87-4468-8139-ca4ab72162f5)
+![cka](https://github.com/PragmaticArchive/CKA/assets/58178752/fe80a939-8b3b-4b11-8ffd-35f431302e32)
+
