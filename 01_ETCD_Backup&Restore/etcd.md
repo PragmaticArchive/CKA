@@ -1,4 +1,8 @@
 ### ETCD
+- key:value형태의 데이터를 저장하는 스토리지
+- k8s를 위한 구성데이터, 상태 데이터, 메타데이터를 관리
+- Kubernetes API 서버는 각 클러스터의 상태 데이터를 etcd에 저장
+- 현재 동작중인 k8s의 모든 운영정보를 담고있음 그래서 백업이 필요함
 
 ```yaml
 ❓ ETCD Backup & Restore
