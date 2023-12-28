@@ -12,7 +12,7 @@
 
 ### static pod 동작방식
 
-1. API 컨트롤러의 도움을 받지 않고 동작하지 않음, 각 노드의 해당 kubelet에게 요청
+1. static pod는 API 컨트롤러의 도움을 받지 않고 동작, 각 노드의 해당 kubelet에게 요청
 2. kubelet은 자신만의 config 파일을 가지고 있음 /var/lib/kubelet/config.yaml을 기반으로 데몬 동작
 3. 해당 노드의 /etcd/kubernetes/manifests → 위치에 static pod yaml 파일 생성, 저장하면 yaml 파일 기준으로 kubelet이 static pod 실행
 
