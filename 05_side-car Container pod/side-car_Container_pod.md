@@ -8,7 +8,6 @@ Task:
 - Don't modify the cart-app
 ```
 
-![image](https://github.com/PragmaticArchive/CKA/assets/58178752/eb7e9273-667d-40df-b95f-37ee415fd8b9)
 ```yaml
 사이드카 컨테이너: 하나의 pod안에서 두개의 컨테이너와 volume이 같이 만들어져서 동작
 동작중인 eshop-cart-app의 log(access.log, error.log)를 다시 가공,분석해서 사용할 필요가 있을때 사이드카 컨테이너를 운영할 수 있음
