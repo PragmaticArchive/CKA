@@ -18,13 +18,13 @@ $ vi eshop-store.yaml
 apiVersion: v1
 kind: Pod
 metadata:
-	name: eshop-store
+  name: eshop-store
 spec:
-	nodeSelector:
-		disktype: ssd
-	containers:
-	- image: nginx
-		name: eshop-store
+  nodeSelector:
+    disktype: ssd
+  containers:
+  - image: nginx
+    name: eshop-store
 $ kubectl apply -f eshop-store.yaml
 $ kubectl get pod eshop-store -o wide
 ```
